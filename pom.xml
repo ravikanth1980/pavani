@@ -132,6 +132,12 @@
                     </webApp>
                 </configuration>
             </plugin>
+	<distributionManagement>
+        <repository>
+        <id>releases</id>
+        <url>http://54.177.55.41:8081/repository/maven-releases//</url>
+        </repository>
+    	</distributionManagement>
 		<!-- CODE COVERAGE -->
 		    <plugin>
 		        <groupId>org.jacoco</groupId>
